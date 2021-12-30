@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPropXMLStruct2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PropXMLStruct2>
+    <id>98</id>
+    <position>
+      <X>-31869.668</X>
+      <Y>-3466.78418</Y>
+      <Z>-10992.9082</Z>
+    </position>
+    <rotation>
+      <X>0</X>
+      <Y>-58.5</Y>
+      <Z>0</Z>
+    </rotation>
+    <scale>
+      <X>26.1498871</X>
+      <Y>10.10002</Y>
+      <Z>13.5000334</Z>
+    </scale>
+  </PropXMLStruct2>
+  <PropXMLStruct2>
+    <id>98</id>
+    <position>
+      <X>-29660.3457</X>
+      <Y>-3592.30151</Y>
+      <Z>-7731.91455</Z>
+    </position>
+    <rotation>
+      <X>0</X>
+      <Y>-54.5</Y>
+      <Z>0</Z>
+    </rotation>
+    <scale>
+      <X>25.8498917</X>
+      <Y>11.0000238</Y>
+      <Z>17.5500183</Z>
+    </scale>
+  </PropXMLStruct2>
+</ArrayOfPropXMLStruct2>

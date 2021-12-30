@@ -1,0 +1,5 @@
+C:\Users\Coosh\Desktop\lumberjack\ColoredTerrainPipeline\bin\x86\Debug\ColoredTerrainPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\ColoredTerrainPipeline\bin\x86\Debug\ColoredTerrainPipeline.pdb
+C:\Users\Coosh\Desktop\lumberjack\ColoredTerrainPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\ColoredTerrainPipeline\obj\x86\Debug\ColoredTerrainPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\ColoredTerrainPipeline\obj\x86\Debug\ColoredTerrainPipeline.pdb

@@ -1,0 +1,11 @@
+C:\Users\Coosh\Desktop\Game\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\Game - Copy\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\3D\W-I-P\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\W-I-P\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P- new\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\W-I-P\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Q2\Console\W-I-P\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna 3D\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\Game\GameContent\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPropXMLStruct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PropXMLStruct>
+    <id>151</id>
+    <position>
+      <X>-25173.8516</X>
+      <Y>-3012.37427</Y>
+      <Z>-56926.7227</Z>
+    </position>
+    <rotation>
+      <X>-9</X>
+      <Y>-83.5</Y>
+      <Z>-13</Z>
+    </rotation>
+    <scale>14.3000183</scale>
+  </PropXMLStruct>
+  <PropXMLStruct>
+    <id>151</id>
+    <position>
+      <X>-25074.9414</X>
+      <Y>-2909.25635</Y>
+      <Z>-56286.5469</Z>
+    </position>
+    <rotation>
+      <X>24</X>
+      <Y>31</Y>
+      <Z>-0.5</Z>
+    </rotation>
+    <scale>12.900013</scale>
+  </PropXMLStruct>
+</ArrayOfPropXMLStruct>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPropXMLStruct2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PropXMLStruct2>
+    <id>98</id>
+    <position>
+      <X>-28946.8066</X>
+      <Y>-3512.75073</Y>
+      <Z>-52765.89</Z>
+    </position>
+    <rotation>
+      <X>0</X>
+      <Y>48</Y>
+      <Z>0</Z>
+    </rotation>
+    <scale>
+      <X>7.00000858</X>
+      <Y>8.300014</Y>
+      <Z>1</Z>
+    </scale>
+  </PropXMLStruct2>
+</ArrayOfPropXMLStruct2>

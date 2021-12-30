@@ -1,0 +1,1896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8958FEFC-0B7E-4109-A01B-BDA9EAAE0A43}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>GameContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="XNAnimation">
+      <HintPath>..\Game\XNAnimation.dll</HintPath>
+    </Reference>
+    <Reference Include="XNAnimationPipeline">
+      <HintPath>.\XNAnimationPipeline.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ColoredTerrainPipeline\ColoredTerrainPipeline.csproj">
+      <Project>{DDB8C297-414D-42A4-9652-60668998A080}</Project>
+      <Name>ColoredTerrainPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ControlledTerrainPipeline\ControlledTerrainPipeline.csproj">
+      <Project>{FE4106B1-8BE5-4A59-B45C-ABE7CE6C159E}</Project>
+      <Name>ControlledTerrainPipeline</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="skybox\Cube.fbx">
+      <Name>Cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\mushroom.FBX">
+      <Name>mushroom</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="skybox\Cubemap_LostValley_1024.dds">
+      <Name>Cubemap_LostValley_1024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="noisemaps\waves.dds">
+      <Name>waves</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="noisemaps\noiseVolume.dds">
+      <Name>noiseVolume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="noisemaps\PulseTrain.tga">
+      <Name>PulseTrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shaders\PostprocessEffect.Fx">
+      <Name>PostprocessEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shaders\ToonMaster.fx">
+      <Name>ToonMaster</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\smallTreeTop.FBX">
+      <Name>smallTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\texPack\low_diffuse.jpg">
+      <Name>low_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="heightmaps\texPack\mid_high_diffuse.jpg">
+      <Name>mid_high_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="heightmaps\texPack\mid_low_diffuse.jpg">
+      <Name>mid_low_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bushTop.FBX">
+      <Name>bushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\bushTrunk.FBX">
+      <Name>bushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigTreeTop.FBX">
+      <Name>bigTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\worldHeightMaps\00.bmp">
+      <Name>00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\01.bmp">
+      <Name>01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\02.bmp">
+      <Name>02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\03.bmp">
+      <Name>03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\04.bmp">
+      <Name>04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\05.bmp">
+      <Name>05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\06.bmp">
+      <Name>06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\07.bmp">
+      <Name>07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\10.bmp">
+      <Name>10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\11.bmp">
+      <Name>11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\12.bmp">
+      <Name>12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\13.bmp">
+      <Name>13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\14.bmp">
+      <Name>14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\15.bmp">
+      <Name>15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\16.bmp">
+      <Name>16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\17.bmp">
+      <Name>17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\20.bmp">
+      <Name>20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\21.bmp">
+      <Name>21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\22.bmp">
+      <Name>22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\23.bmp">
+      <Name>23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\24.bmp">
+      <Name>24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\25.bmp">
+      <Name>25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\26.bmp">
+      <Name>26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\27.bmp">
+      <Name>27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\30.bmp">
+      <Name>30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\31.bmp">
+      <Name>31</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\32.bmp">
+      <Name>32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\33.bmp">
+      <Name>33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\34.bmp">
+      <Name>34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\35.bmp">
+      <Name>35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\36.bmp">
+      <Name>36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\37.bmp">
+      <Name>37</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\40.bmp">
+      <Name>40</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\41.bmp">
+      <Name>41</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\42.bmp">
+      <Name>42</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\43.bmp">
+      <Name>43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\44.bmp">
+      <Name>44</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\45.bmp">
+      <Name>45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\46.bmp">
+      <Name>46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\47.bmp">
+      <Name>47</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\50.bmp">
+      <Name>50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\51.bmp">
+      <Name>51</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\52.bmp">
+      <Name>52</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\53.bmp">
+      <Name>53</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\54.bmp">
+      <Name>54</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\55.bmp">
+      <Name>55</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\56.bmp">
+      <Name>56</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\57.bmp">
+      <Name>57</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\60.bmp">
+      <Name>60</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\61.bmp">
+      <Name>61</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\62.bmp">
+      <Name>62</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\63.bmp">
+      <Name>63</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\64.bmp">
+      <Name>64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\65.bmp">
+      <Name>65</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\66.bmp">
+      <Name>66</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\67.bmp">
+      <Name>67</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\70.bmp">
+      <Name>70</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\71.bmp">
+      <Name>71</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\72.bmp">
+      <Name>72</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\73.bmp">
+      <Name>73</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\74.bmp">
+      <Name>74</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\75.bmp">
+      <Name>75</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\76.bmp">
+      <Name>76</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\77.bmp">
+      <Name>77</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigBushTop.FBX">
+      <Name>bigBushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\bigBushTrunk.FBX">
+      <Name>bigBushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\rocks\longRock.FBX">
+      <Name>longRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\rock_1_256.png">
+      <Name>rock_1_256</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="textures\rock_1_512.png">
+      <Name>rock_1_512</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\rocks\boulderRock.FBX">
+      <Name>boulderRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\spikeyBushTop.FBX">
+      <Name>spikeyBushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\spikeyBushTrunk.FBX">
+      <Name>spikeyBushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\levelEditorBacking.png">
+      <Name>levelEditorBacking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\testAndy.FBX">
+      <Name>testAndy</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\andy_diffuse.png">
+      <Name>andy_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigTreeStump.FBX">
+      <Name>bigTreeStump</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\smallTreeStump.FBX">
+      <Name>smallTreeStump</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\rocks\craigRock.FBX">
+      <Name>craigRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\gridTex.bmp">
+      <Name>gridTex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fonts\Arial14.spritefont">
+      <Name>Arial14</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\building\block_centered.X">
+      <Name>block_centered</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\building\buildIndicator.X">
+      <Name>buildIndicator</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\building\disc_centered.X">
+      <Name>disc_centered</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\building\gridFloor.X">
+      <Name>gridFloor</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\building\plank_centered.X">
+      <Name>plank_centered</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\BuildUI\MoveDown.png">
+      <Name>MoveDown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\MoveIn.png">
+      <Name>MoveIn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\MoveLeft.png">
+      <Name>MoveLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\MoveOut.png">
+      <Name>MoveOut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\MoveRight.png">
+      <Name>MoveRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\MoveUp.png">
+      <Name>MoveUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\RotateXNeg.png">
+      <Name>RotateXNeg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\RotateXPos.png">
+      <Name>RotateXPos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\RotateYNeg.png">
+      <Name>RotateYNeg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\BuildUI\RotateYPos.png">
+      <Name>RotateYPos</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\testMenuTitle.png">
+      <Name>testMenuTitle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigTreeTrunk_low.FBX">
+      <Name>bigTreeTrunk_low</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\player\feetBox.FBX">
+      <Name>feetBox</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\tablet_diffuse.png">
+      <Name>tablet_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\mainMenuTerrainMap.bmp">
+      <Name>mainMenuTerrainMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.35</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>256</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>2048</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\border.FBX">
+      <Name>border</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\player\andyMMAnims.X">
+      <Name>andyMMAnims</Name>
+      <Importer>XImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\player\tablet.FBX">
+      <Name>tablet</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\player\andyAnims.X">
+      <Name>andyAnims</Name>
+      <Importer>XImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\blank.tga">
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_tablet_build.png">
+      <Name>btn_tablet_build</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fonts\Pericles.spritefont">
+      <Name>Pericles</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\mmTitle1280.png">
+      <Name>mmTitle1280</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\tooltipBack.png">
+      <Name>tooltipBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_tablet_quit.png">
+      <Name>btn_tablet_quit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\thinTreeTop.FBX">
+      <Name>thinTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\thinTreeTrunk.FBX">
+      <Name>thinTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\thinTreeStump.FBX">
+      <Name>thinTreeStump</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\thinTreeStump2.FBX">
+      <Name>thinTreeStump2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\player\axe.FBX">
+      <Name>axe</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\axe_diffuse.png">
+      <Name>axe_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_continueGame.png">
+      <Name>btn_continueGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\btn_newGame.png">
+      <Name>btn_newGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_quitGame.png">
+      <Name>btn_quitGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\loading.png">
+      <Name>loading</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="skybox\Cubemap_LostValley_512.dds">
+      <Name>Cubemap_LostValley_512</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\btn_down.wav">
+      <Name>btn_down</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+    <Compile Include="audio\btn_up.wav">
+      <Name>btn_up</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\trigger.png">
+      <Name>trigger</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_tablet_save.png">
+      <Name>btn_tablet_save</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\saving.png">
+      <Name>saving</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigTreeTrunk_low2.FBX">
+      <Name>bigTreeTrunk_low2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\smallTreeTrunk.FBX">
+      <Name>smallTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_tablet_map.png">
+      <Name>btn_tablet_map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_tablet_inventory.png">
+      <Name>btn_tablet_inventory</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_goBack.png">
+      <Name>btn_goBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_closeTablet.png">
+      <Name>btn_closeTablet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_worldMap.png">
+      <Name>btn_worldMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\worldMap.png">
+      <Name>worldMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\btn_exitWorldMap.png">
+      <Name>btn_exitWorldMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\playerLocator.png">
+      <Name>playerLocator</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\goalMarker.png">
+      <Name>goalMarker</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\ptl_leaf.png">
+      <Name>ptl_leaf</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\leaf.FBX">
+      <Name>leaf</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\dam_diffuse.png">
+      <Name>dam_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\dam.FBX">
+      <Name>dam</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\inventoryBackground.png">
+      <Name>inventoryBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\inventoryMakeButton.png">
+      <Name>inventoryMakeButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\inventoryRecycleButton.png">
+      <Name>inventoryRecycleButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\buildButtonBack.png">
+      <Name>buildButtonBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\buildTitleBack.png">
+      <Name>buildTitleBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\propList_00.xml">
+      <Name>propList_00</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_01.xml">
+      <Name>propList_01</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_02.xml">
+      <Name>propList_02</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_03.xml">
+      <Name>propList_03</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_04.xml">
+      <Name>propList_04</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_05.xml">
+      <Name>propList_05</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_06.xml">
+      <Name>propList_06</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_07.xml">
+      <Name>propList_07</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_10.xml">
+      <Name>propList_10</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_11.xml">
+      <Name>propList_11</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_12.xml">
+      <Name>propList_12</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_13.xml">
+      <Name>propList_13</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_14.xml">
+      <Name>propList_14</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_15.xml">
+      <Name>propList_15</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_16.xml">
+      <Name>propList_16</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_17.xml">
+      <Name>propList_17</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_20.xml">
+      <Name>propList_20</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_21.xml">
+      <Name>propList_21</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_22.xml">
+      <Name>propList_22</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_23.xml">
+      <Name>propList_23</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_24.xml">
+      <Name>propList_24</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_25.xml">
+      <Name>propList_25</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_26.xml">
+      <Name>propList_26</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_27.xml">
+      <Name>propList_27</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_30.xml">
+      <Name>propList_30</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_31.xml">
+      <Name>propList_31</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_32.xml">
+      <Name>propList_32</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_33.xml">
+      <Name>propList_33</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_34.xml">
+      <Name>propList_34</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_35.xml">
+      <Name>propList_35</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_36.xml">
+      <Name>propList_36</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_37.xml">
+      <Name>propList_37</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_40.xml">
+      <Name>propList_40</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_41.xml">
+      <Name>propList_41</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_42.xml">
+      <Name>propList_42</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_43.xml">
+      <Name>propList_43</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_44.xml">
+      <Name>propList_44</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_45.xml">
+      <Name>propList_45</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_46.xml">
+      <Name>propList_46</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_47.xml">
+      <Name>propList_47</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_50.xml">
+      <Name>propList_50</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_51.xml">
+      <Name>propList_51</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_52.xml">
+      <Name>propList_52</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_53.xml">
+      <Name>propList_53</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_54.xml">
+      <Name>propList_54</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_55.xml">
+      <Name>propList_55</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_56.xml">
+      <Name>propList_56</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_57.xml">
+      <Name>propList_57</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_60.xml">
+      <Name>propList_60</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_61.xml">
+      <Name>propList_61</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_62.xml">
+      <Name>propList_62</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_63.xml">
+      <Name>propList_63</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_64.xml">
+      <Name>propList_64</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_65.xml">
+      <Name>propList_65</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_66.xml">
+      <Name>propList_66</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_67.xml">
+      <Name>propList_67</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_70.xml">
+      <Name>propList_70</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_71.xml">
+      <Name>propList_71</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_72.xml">
+      <Name>propList_72</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_73.xml">
+      <Name>propList_73</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_74.xml">
+      <Name>propList_74</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_75.xml">
+      <Name>propList_75</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_76.xml">
+      <Name>propList_76</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\propList_77.xml">
+      <Name>propList_77</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Compile Include="models\house.FBX">
+      <Name>house</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\dock.FBX">
+      <Name>dock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\fence.FBX">
+      <Name>fence</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\boat.FBX">
+      <Name>boat</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\boatSail.FBX">
+      <Name>boatSail</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\pineTreeTop.FBX">
+      <Name>pineTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\pineTreeTrunk.FBX">
+      <Name>pineTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\waterSpray.FBX">
+      <Name>waterSpray</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\goalStar.FBX">
+      <Name>goalStar</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\goalText.FBX">
+      <Name>goalText</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\building\rod_centered.X">
+      <Name>rod_centered</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\cabbage.FBX">
+      <Name>cabbage</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="fonts\tabletText.spritefont">
+      <Name>tabletText</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\worldUsefulLocations.xml">
+      <Name>worldUsefulLocations</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\worldWaterList.xml">
+      <Name>worldWaterList</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\worldEmitterList.xml">
+      <Name>worldEmitterList</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\Bridge_to_Bama.wav">
+      <Name>Bridge_to_Bama</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\birds.wav">
+      <Name>birds</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\creek.wav">
+      <Name>creek</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\wind.wav">
+      <Name>wind</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\waterfall.wav">
+      <Name>waterfall</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\pling.wav">
+      <Name>pling</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\footstep.wav">
+      <Name>footstep</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\gameLogicPropList.xml">
+      <Name>gameLogicPropList</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\worldTriggerList.xml">
+      <Name>worldTriggerList</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\house_diffuse.png">
+      <Name>house_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\dock_diffuse.png">
+      <Name>dock_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\Coronation.wav">
+      <Name>Coronation</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\tabletBack.png">
+      <Name>tabletBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\buildApp.png">
+      <Name>buildApp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\inventoryApp.png">
+      <Name>inventoryApp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\mapApp.png">
+      <Name>mapApp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\quitApp.png">
+      <Name>quitApp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\saveApp.png">
+      <Name>saveApp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\closeApp.png">
+      <Name>closeApp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\Saint_Louis_Blues.wav">
+      <Name>Saint_Louis_Blues</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\cabbage_diffuse.png">
+      <Name>cabbage_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="audio\negative.wav">
+      <Name>negative</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\mmTitle1024.png">
+      <Name>mmTitle1024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\buildHelpBig.png">
+      <Name>buildHelpBig</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="sprites\buildHelpSmall.png">
+      <Name>buildHelpSmall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

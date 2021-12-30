@@ -1,0 +1,77 @@
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\Game\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\Game - Copy\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\xna\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\n210\Desktop\3D\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\n210\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\student\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+F:\Q2\Console\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.pdb
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\obj\x86\Debug\SkinnedModelPipeline.pdb

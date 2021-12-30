@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfVector3 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Vector3>
+    <X>-49104.918</X>
+    <Y>-1273.09143</Y>
+    <Z>-34211.9063</Z>
+  </Vector3>
+  <Vector3>
+    <X>-38448.8242</X>
+    <Y>-1982.03113</Y>
+    <Z>-30829.7266</Z>
+  </Vector3>
+  <Vector3>
+    <X>-34794.0273</X>
+    <Y>-1622.07446</Y>
+    <Z>-4134.37842</Z>
+  </Vector3>
+  <Vector3>
+    <X>-21512.71</X>
+    <Y>-1700.863</Y>
+    <Z>-22462.623</Z>
+  </Vector3>
+  <Vector3>
+    <X>-28825.4473</X>
+    <Y>-1058.78821</Y>
+    <Z>-39554.875</Z>
+  </Vector3>
+  <Vector3>
+    <X>-8845.587</X>
+    <Y>-3170.20239</Y>
+    <Z>-39533.15</Z>
+  </Vector3>
+  <Vector3>
+    <X>-24946.2617</X>
+    <Y>-2835.74268</Y>
+    <Z>-48973.9063</Z>
+  </Vector3>
+  <Vector3>
+    <X>-19517.2656</X>
+    <Y>-1500.38208</Y>
+    <Z>-51520.8438</Z>
+  </Vector3>
+</ArrayOfVector3>

@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8958FEFC-0B7E-4109-A01B-BDA9EAAE0A43}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>GameContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\threerings.png">
+      <Name>threerings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\dude\dude.fbx">
+      <Name>dude</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ColoredTerrainPipeline\ColoredTerrainPipeline.csproj">
+      <Project>{DDB8C297-414D-42A4-9652-60668998A080}</Project>
+      <Name>ColoredTerrainPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ControlledTerrainPipeline\ControlledTerrainPipeline.csproj">
+      <Project>{FE4106B1-8BE5-4A59-B45C-ABE7CE6C159E}</Project>
+      <Name>ControlledTerrainPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GeneratedGeometryPipeline\GeneratedGeometryPipeline.csproj">
+      <Project>{D7659373-57BA-4E4C-A620-53CEE4618725}</Project>
+      <Name>GeneratedGeometryPipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SkinnedModelPipeline\SkinnedModelPipeline.csproj">
+      <Project>{6B7100E2-2725-46F5-8D80-E431FD921D9E}</Project>
+      <Name>SkinnedModelPipeline</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="skybox\Cube.fbx">
+      <Name>Cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\mushroom.FBX">
+      <Name>mushroom</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <ProcessorParameters_GenerateTangentFrames>True</ProcessorParameters_GenerateTangentFrames>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="skybox\Cubemap_LostValley_1024.dds">
+      <Name>Cubemap_LostValley_1024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="noisemaps\waves.dds">
+      <Name>waves</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shaders\Billboard.fx">
+      <Name>Billboard</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="particles\ptl_dot.png">
+      <Name>ptl_dot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="fonts\verdana.spritefont">
+      <Name>verdana</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="noisemaps\noiseVolume.dds">
+      <Name>noiseVolume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shaders\Geometry.fx">
+      <Name>Geometry</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\bbSheetTest.png">
+      <Name>bbSheetTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\heightmap4.bmp">
+      <Name>heightmap4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <ProcessorParameters_TerrainBumpiness>512</ProcessorParameters_TerrainBumpiness>
+      <ProcessorParameters_TexCoordScale>0.5</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>32</ProcessorParameters_TerrainScale>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="noisemaps\PulseTrain.tga">
+      <Name>PulseTrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shaders\PostprocessEffect.Fx">
+      <Name>PostprocessEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="sprites\bbSpriteTest.png">
+      <Name>bbSpriteTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\ground_diffuse.jpg">
+      <Name>ground_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="shaders\ToonMaster.fx">
+      <Name>ToonMaster</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\heightmapTest.bmp">
+      <Name>heightmapTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TerrainBumpiness>768</ProcessorParameters_TerrainBumpiness>
+      <ProcessorParameters_TexCoordScale>0.3</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>64</ProcessorParameters_TerrainScale>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\smallTreeTop.FBX">
+      <Name>smallTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\heightmapTest2.bmp">
+      <Name>heightmapTest2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ColoredTerrainProcessor</Processor>
+      <ProcessorParameters_TerrainBumpiness>768</ProcessorParameters_TerrainBumpiness>
+      <ProcessorParameters_TerrainScale>64</ProcessorParameters_TerrainScale>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\texPack\low_diffuse.jpg">
+      <Name>low_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="heightmaps\texPack\mid_high_diffuse.jpg">
+      <Name>mid_high_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="heightmaps\texPack\mid_low_diffuse.jpg">
+      <Name>mid_low_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bushTop.FBX">
+      <Name>bushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\bushTrunk.FBX">
+      <Name>bushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigTreeTop.FBX">
+      <Name>bigTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\smallTreeTrunk.FBX">
+      <Name>smallTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="heightmaps\worldHeightMaps\00.bmp">
+      <Name>00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\01.bmp">
+      <Name>01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\02.bmp">
+      <Name>02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\03.bmp">
+      <Name>03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\04.bmp">
+      <Name>04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\05.bmp">
+      <Name>05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\06.bmp">
+      <Name>06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\07.bmp">
+      <Name>07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\10.bmp">
+      <Name>10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\11.bmp">
+      <Name>11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\12.bmp">
+      <Name>12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\13.bmp">
+      <Name>13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\14.bmp">
+      <Name>14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\15.bmp">
+      <Name>15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\16.bmp">
+      <Name>16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\17.bmp">
+      <Name>17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\20.bmp">
+      <Name>20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\21.bmp">
+      <Name>21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\22.bmp">
+      <Name>22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\23.bmp">
+      <Name>23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\24.bmp">
+      <Name>24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\25.bmp">
+      <Name>25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\26.bmp">
+      <Name>26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\27.bmp">
+      <Name>27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\30.bmp">
+      <Name>30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\31.bmp">
+      <Name>31</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\32.bmp">
+      <Name>32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\33.bmp">
+      <Name>33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\34.bmp">
+      <Name>34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\35.bmp">
+      <Name>35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\36.bmp">
+      <Name>36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\37.bmp">
+      <Name>37</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\40.bmp">
+      <Name>40</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\41.bmp">
+      <Name>41</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\42.bmp">
+      <Name>42</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\43.bmp">
+      <Name>43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\44.bmp">
+      <Name>44</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\45.bmp">
+      <Name>45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\46.bmp">
+      <Name>46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\47.bmp">
+      <Name>47</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\50.bmp">
+      <Name>50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\51.bmp">
+      <Name>51</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\52.bmp">
+      <Name>52</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\53.bmp">
+      <Name>53</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\54.bmp">
+      <Name>54</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\55.bmp">
+      <Name>55</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\56.bmp">
+      <Name>56</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\57.bmp">
+      <Name>57</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\60.bmp">
+      <Name>60</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\61.bmp">
+      <Name>61</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\62.bmp">
+      <Name>62</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\63.bmp">
+      <Name>63</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\64.bmp">
+      <Name>64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\65.bmp">
+      <Name>65</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\66.bmp">
+      <Name>66</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\67.bmp">
+      <Name>67</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\70.bmp">
+      <Name>70</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\71.bmp">
+      <Name>71</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\72.bmp">
+      <Name>72</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\73.bmp">
+      <Name>73</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\74.bmp">
+      <Name>74</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\75.bmp">
+      <Name>75</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\76.bmp">
+      <Name>76</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+    <Compile Include="heightmaps\worldHeightMaps\77.bmp">
+      <Name>77</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <ProcessorParameters_TexCoordScale>0.25</ProcessorParameters_TexCoordScale>
+      <ProcessorParameters_TerrainScale>128</ProcessorParameters_TerrainScale>
+      <ProcessorParameters_TerrainBumpiness>4096</ProcessorParameters_TerrainBumpiness>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigBushTop.FBX">
+      <Name>bigBushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\bigBushTrunk.FBX">
+      <Name>bigBushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\bigTreeTrunk.FBX">
+      <Name>bigTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\rocks\longRock.FBX">
+      <Name>longRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\rock_1_256.png">
+      <Name>rock_1_256</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="textures\rock_1_512.png">
+      <Name>rock_1_512</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\rocks\boulderRock.FBX">
+      <Name>boulderRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="textures\rock_2_256.png">
+      <Name>rock_2_256</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="textures\rock_2_512.png">
+      <Name>rock_2_512</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="models\treeParts\spikeyBushTop.FBX">
+      <Name>spikeyBushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+    <Compile Include="models\treeParts\spikeyBushTrunk.FBX">
+      <Name>spikeyBushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

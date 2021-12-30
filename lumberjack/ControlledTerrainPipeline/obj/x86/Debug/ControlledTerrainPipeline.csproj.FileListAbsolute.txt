@@ -1,0 +1,5 @@
+C:\Users\Coosh\Desktop\lumberjack\ControlledTerrainPipeline\bin\x86\Debug\ControlledTerrainPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\ControlledTerrainPipeline\bin\x86\Debug\ControlledTerrainPipeline.pdb
+C:\Users\Coosh\Desktop\lumberjack\ControlledTerrainPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\ControlledTerrainPipeline\obj\x86\Debug\ControlledTerrainPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\ControlledTerrainPipeline\obj\x86\Debug\ControlledTerrainPipeline.pdb

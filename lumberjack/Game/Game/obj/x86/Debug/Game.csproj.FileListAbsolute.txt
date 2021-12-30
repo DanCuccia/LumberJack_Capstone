@@ -1,0 +1,486 @@
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\Game\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\Game\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\Game\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\Game\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\Game\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\Game - Copy\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\xna\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\xna\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\xna\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\models\skybox\skybox.xnb
+C:\Users\Coosh\Desktop\xna\Game\Game\bin\x86\Debug\Content\FullskiesDusk0014_1_M_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\3D\W-I-P\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\n210\Desktop\W-I-P\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\W-I-P\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\n210\Desktop\W-I-P\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\n210\Desktop\W-I-P\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_512.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\BasicScene.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_Mars_512.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Bloom.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Crystal.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Reflect.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Reflect_Refract.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Refract.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Silhouette.xnb
+C:\Users\Coosh\Desktop\W-I-P- new\Game\Game\bin\x86\Debug\Content\shaders\Silhouette_Toon.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_512.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_Mars_512.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\SkyBox.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Bloom.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Crystal.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect_Refract.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Refract.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette_Toon.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\student\Desktop\W-I-P\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\W-I-P\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\student\Desktop\W-I-P\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\student\Desktop\W-I-P\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\student\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\grass.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_512.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_Mars_512.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\textures\grass.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\SkyBox.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Bloom.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Crystal.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect_Refract.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Refract.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette_Toon.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Game.exe
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\Game.pdb
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.dll
+F:\Q2\Console\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+F:\Q2\Console\W-I-P\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Q2\Console\W-I-P\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Q2\Console\W-I-P\Game\Game\obj\x86\Debug\Game.exe
+F:\Q2\Console\W-I-P\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_Mars_512.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\grass.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\Fieldstone.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\FieldstoneBumpDOT3.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_1024.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_HourGlass_1024.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\ScreenAlignedQuad.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\staff.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\SkyBox.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Bloom.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Crystal.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect_Refract.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Refract.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette_Toon.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\NormalMapping.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\textures\BarkDecidious0107_L_0.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_DesertEvening_1024.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_bump.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_diffuse.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_gloss.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_specColor.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_specLevel.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\heightmap.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\chuteAnims.xnb
+C:\Users\n210\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\chute\textures\tex_chute_diffuse_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\goomy.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_Mars_512.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\grass.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\Fieldstone.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\FieldstoneBumpDOT3.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_1024.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_HourGlass_1024.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_DesertEvening_1024.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_bump.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_diffuse.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_gloss.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_specColor.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\textures\tex_chute_specLevel.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\rock.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\sand.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\snow.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\heightmap2.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\waves2.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\heightmap3.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\particles\ptl_dot.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\noisemaps\distortion2.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\noisemaps\distortion.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\noisemaps\noiseVolume.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\noisemaps\noise.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\bbSpriteTest.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\sprites\bbSheetTest.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\grass_normal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\grass_diffuse.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\rock_diffuse.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\sand_diffuse.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\snow_diffuse.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\grass_normal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\rock_normal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\sand_normal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\snow_normal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\noisemaps\wave0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\noisemaps\wave1.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\textures\sun.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\ScreenAlignedQuad.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\staff.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\chuteAnims.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\skybox\Sphere.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\quadArray.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\big_gun.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\SkyBox.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Bloom.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Crystal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Reflect_Refract.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Refract.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Silhouette_Toon.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\NormalMapping.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\GeneratedTerrain.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Water.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Billboard.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\HeatShimmer.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\ScreenEffects.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Geometry.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\ClearGBuffer.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\HDWater.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Lighting.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\fonts\verdana.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\textures\BarkDecidious0107_L_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\models\chute\chute\textures\tex_chute_diffuse_0.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\heightmap1.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\heightmaps\testHeightmap.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Metal.xnb
+C:\Users\Coosh\Desktop\W-I-P\Game\Game\bin\x86\Debug\Content\shaders\Glitter.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_1024.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\noisemaps\waves.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\particles\ptl_dot.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\noisemaps\noiseVolume.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\sprites\bbSheetTest.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\grass_diffuse.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\rock_diffuse.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\sand_diffuse.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\snow_diffuse.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\grass_normal.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\rock_normal.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\sand_normal.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack1\snow_normal.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\heightmap4.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\textures\sun.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\noisemaps\PulseTrain.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\noisemaps\SketchTexture.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack2\grass.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack2\rock.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack2\sand.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\heightmaps\texPack2\snow.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\sprites\bbSpriteTest.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\soldier\soldier.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\ScreenAlignedQuad.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\skybox\Skybox.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\GeneratedTerrain.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\Water.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\Billboard.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\Geometry.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\WoodNoisyRings.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\Toon.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\shaders\PostprocessEffect.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\fonts\verdana.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\soldier\body_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\soldier\face_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\soldier\helmet_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\soldier\pulserifle_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\xna 3D\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_1024.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\noisemaps\waves.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\particles\ptl_dot.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\noisemaps\noiseVolume.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\sprites\bbSheetTest.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\heightmap4.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\noisemaps\PulseTrain.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\sprites\bbSpriteTest.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\ground_diffuse.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\heightmapTest.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\heightmapTest2.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\texPack\low_diffuse.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\texPack\mid_high_diffuse.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\texPack\mid_low_diffuse.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\00.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\01.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\02.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\03.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\04.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\05.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\06.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\07.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\10.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\11.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\12.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\13.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\14.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\15.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\16.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\17.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\20.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\21.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\22.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\23.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\24.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\25.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\26.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\27.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\30.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\31.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\32.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\33.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\34.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\35.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\36.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\37.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\40.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\41.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\42.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\43.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\44.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\45.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\46.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\47.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\50.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\51.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\52.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\53.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\54.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\55.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\56.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\57.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\60.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\61.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\62.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\63.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\64.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\65.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\66.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\67.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\70.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\71.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\72.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\73.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\74.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\75.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\76.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\77.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\Billboard.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\Geometry.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\PostprocessEffect.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\ToonMaster.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\fonts\verdana.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\obj\x86\Debug\Game.exe
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\obj\x86\Debug\Game.pdb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\smallTreeTop.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bushTop.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bushTrunk.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigTreeTop.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigTreeTrunk.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\smallTreeTrunk.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigBushTop.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigBushTrunk.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_1_256.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_1_512.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\rocks\longRock.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\rocks\boulderRock.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_2_256.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_2_512.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\spikeyBushTop.xnb
+C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\spikeyBushTrunk.xnb

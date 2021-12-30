@@ -1,0 +1,1559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>sprites\threerings.png</Source>
+      <Name>sprites\threerings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\sprites\threerings.xnb</Output>
+      <Time>2011-07-25T16:52:16.4226802-04:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox\Cubemap_LostValley_1024.dds</Source>
+      <Name>skybox\Cubemap_LostValley_1024</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\skybox\Cubemap_LostValley_1024.xnb</Output>
+      <Time>2011-08-05T16:55:26.7981062-04:00</Time>
+    </Item>
+    <Item>
+      <Source>noisemaps\waves.dds</Source>
+      <Name>noisemaps\waves</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\noisemaps\waves.xnb</Output>
+      <Time>2011-08-26T16:13:23.2486384-04:00</Time>
+    </Item>
+    <Item>
+      <Source>particles\ptl_dot.png</Source>
+      <Name>particles\ptl_dot</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\particles\ptl_dot.xnb</Output>
+      <Time>2011-08-27T08:43:13.7133869-04:00</Time>
+    </Item>
+    <Item>
+      <Source>noisemaps\noiseVolume.dds</Source>
+      <Name>noisemaps\noiseVolume</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\noisemaps\noiseVolume.xnb</Output>
+      <Time>2011-08-27T22:51:55.7901081-04:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\bbSheetTest.png</Source>
+      <Name>sprites\bbSheetTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\sprites\bbSheetTest.xnb</Output>
+      <Time>2011-08-30T12:01:22.7944101-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\heightmap4.bmp</Source>
+      <Name>heightmaps\heightmap4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TerrainBumpiness">512</Data>
+        <Data Key="TexCoordScale">0.5</Data>
+        <Data Key="TerrainScale">32</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\heightmap4.xnb</Output>
+      <Time>2011-10-20T11:34:35.1224798-04:00</Time>
+    </Item>
+    <Item>
+      <Source>noisemaps\PulseTrain.tga</Source>
+      <Name>noisemaps\PulseTrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\noisemaps\PulseTrain.xnb</Output>
+      <Time>2011-10-24T15:58:32.3487878-04:00</Time>
+    </Item>
+    <Item>
+      <Source>sprites\bbSpriteTest.png</Source>
+      <Name>sprites\bbSpriteTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\sprites\bbSpriteTest.xnb</Output>
+      <Time>2011-10-24T19:26:58.3671283-04:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\ground_diffuse.jpg</Source>
+      <Name>textures\ground_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\ground_diffuse.xnb</Output>
+      <Time>2011-10-25T20:53:28.7782552-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\heightmapTest.bmp</Source>
+      <Name>heightmaps\heightmapTest</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TerrainBumpiness">768</Data>
+        <Data Key="TexCoordScale">0.3</Data>
+        <Data Key="TerrainScale">64</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\heightmapTest.xnb</Output>
+      <Time>2011-10-28T17:02:31.5107115-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\heightmapTest2.bmp</Source>
+      <Name>heightmaps\heightmapTest2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ColoredTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TerrainBumpiness">768</Data>
+        <Data Key="TerrainScale">64</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\heightmapTest2.xnb</Output>
+      <Time>2011-10-29T15:29:17.9803155-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\texPack\low_diffuse.jpg</Source>
+      <Name>heightmaps\texPack\low_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\texPack\low_diffuse.xnb</Output>
+      <Time>2011-10-29T18:47:02.7060309-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\texPack\mid_high_diffuse.jpg</Source>
+      <Name>heightmaps\texPack\mid_high_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\texPack\mid_high_diffuse.xnb</Output>
+      <Time>2011-10-29T18:47:02.7060309-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\texPack\mid_low_diffuse.jpg</Source>
+      <Name>heightmaps\texPack\mid_low_diffuse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\texPack\mid_low_diffuse.xnb</Output>
+      <Time>2011-10-29T18:47:02.7060309-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\00.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\00.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\01.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\01.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\02.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\02.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\03.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\03.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\04.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\04.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\05.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\05.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\06.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\06.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\07.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\07.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\10.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\10.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\11.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\11.xnb</Output>
+      <Time>2011-11-05T13:22:34.6695189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\12.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\12.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\13.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\13.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\14.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\14.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\15.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\15.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\16.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\16.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\17.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\17.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\20.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\20.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\21.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\21.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\22.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\22.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\23.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\23.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\24.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\24.xnb</Output>
+      <Time>2011-11-05T13:22:34.6851189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\25.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\25.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\26.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\26.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\27.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\27.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\30.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\30.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\31.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\31</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\31.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\32.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\32.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\33.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\33.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\34.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\34.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\35.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\35.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\36.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\36.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\37.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\37</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\37.xnb</Output>
+      <Time>2011-11-05T13:22:34.7007189-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\40.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\40</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\40.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\41.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\41</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\41.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\42.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\42</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\42.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\43.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\43.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\44.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\44</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\44.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\45.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\45.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\46.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\46.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\47.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\47</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\47.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\50.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\50.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\51.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\51</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\51.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\52.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\52</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\52.xnb</Output>
+      <Time>2011-11-05T13:22:34.716319-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\53.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\53</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\53.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\54.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\54</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\54.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\55.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\55</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\55.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\56.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\56</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\56.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\57.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\57</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\57.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\60.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\60</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\60.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\61.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\61</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\61.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\62.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\62</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\62.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\63.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\63</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\63.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\64.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\64</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\64.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\65.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\65</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\65.xnb</Output>
+      <Time>2011-11-05T13:22:34.731919-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\66.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\66</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\66.xnb</Output>
+      <Time>2011-11-05T13:22:34.747519-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\67.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\67</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\67.xnb</Output>
+      <Time>2011-11-05T13:22:34.747519-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\70.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\70</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\70.xnb</Output>
+      <Time>2011-11-05T13:22:34.747519-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\71.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\71</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\71.xnb</Output>
+      <Time>2011-11-05T13:22:34.747519-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\72.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\72</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\72.xnb</Output>
+      <Time>2011-11-05T13:22:34.763119-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\73.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\73</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\73.xnb</Output>
+      <Time>2011-11-05T13:22:34.763119-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\74.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\74</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\74.xnb</Output>
+      <Time>2011-11-05T13:22:34.763119-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\75.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\75</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\75.xnb</Output>
+      <Time>2011-11-05T13:22:34.763119-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\76.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\76</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\76.xnb</Output>
+      <Time>2011-11-05T13:22:34.763119-04:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmaps\worldHeightMaps\77.bmp</Source>
+      <Name>heightmaps\worldHeightMaps\77</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>ControlledTerrainProcessor</Processor>
+      <Parameters>
+        <Data Key="TexCoordScale">0.25</Data>
+        <Data Key="TerrainScale">128</Data>
+        <Data Key="TerrainBumpiness">4096</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\heightmaps\worldHeightMaps\77.xnb</Output>
+      <Time>2011-11-05T13:22:34.763119-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\dude\dude.fbx</Source>
+      <Name>models\dude\dude</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>SkinnedModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\dude.xnb</Output>
+      <Time>2011-07-27T22:49:57.5417727-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\dude\dude_0.xml</Key>
+        <Value>2011-11-05T13:12:47.2851716-04:00</Value>
+      </Dependency>
+      <Request>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb</Request>
+      <Request>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb</Request>
+      <Request>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb</Request>
+      <Request>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>skybox\Cube.fbx</Source>
+      <Name>skybox\Cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\skybox\Cube.xnb</Output>
+      <Time>2011-08-02T17:30:36.5096627-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\skybox\Cube_0.xml</Key>
+        <Value>2011-11-05T13:12:49.3755752-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\mushroom.FBX</Source>
+      <Name>models\mushroom</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="GenerateTangentFrames">True</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\mushroom.xnb</Output>
+      <Time>2011-08-05T16:17:59.1695492-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\mushroom_0.xml</Key>
+        <Value>2011-11-05T13:12:49.7499759-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>shaders\Billboard.fx</Source>
+      <Name>shaders\Billboard</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\Billboard.xnb</Output>
+      <Time>2011-10-26T00:14:22.8830847-04:00</Time>
+    </Item>
+    <Item>
+      <Source>shaders\Geometry.fx</Source>
+      <Name>shaders\Geometry</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\Geometry.xnb</Output>
+      <Time>2011-08-29T20:51:58.2427697-04:00</Time>
+    </Item>
+    <Item>
+      <Source>shaders\PostprocessEffect.Fx</Source>
+      <Name>shaders\PostprocessEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\PostprocessEffect.xnb</Output>
+      <Time>2011-10-31T17:34:32.5869938-04:00</Time>
+    </Item>
+    <Item>
+      <Source>shaders\ToonMaster.fx</Source>
+      <Name>shaders\ToonMaster</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\shaders\ToonMaster.xnb</Output>
+      <Time>2011-11-06T10:26:51.5005575-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\verdana.spritefont</Source>
+      <Name>fonts\verdana</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\fonts\verdana.xnb</Output>
+      <Time>2011-08-29T10:21:21.760781-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\dude\dude.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\dude\dude_0.xml</Output>
+      <Time>2011-07-27T22:49:57.5417727-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\dude\head.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\head_0.xnb</Output>
+      <Time>2011-07-27T22:49:57.5885728-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\dude\jacket.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\jacket_0.xnb</Output>
+      <Time>2011-07-27T22:49:57.6353729-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\dude\pants.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\pants_0.xnb</Output>
+      <Time>2011-07-27T22:49:57.682173-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\dude\upBodyC.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\dude\upBodyC_0.xnb</Output>
+      <Time>2011-07-27T22:49:57.7289731-04:00</Time>
+    </Item>
+    <Item>
+      <Source>skybox\Cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\skybox\Cube_0.xml</Output>
+      <Time>2011-08-02T17:30:36.5096627-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\mushroom.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\mushroom_0.xml</Output>
+      <Time>2011-08-05T16:17:59.1695492-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\smallTreeTop.FBX</Source>
+      <Name>models\treeParts\smallTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\smallTreeTop.xnb</Output>
+      <Time>2011-10-29T00:26:16.7462449-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\smallTreeTop_0.xml</Key>
+        <Value>2011-11-06T12:12:24.8762241-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bushTop.FBX</Source>
+      <Name>models\treeParts\bushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bushTop.xnb</Output>
+      <Time>2011-10-29T19:35:14.4989579-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\bushTop_0.xml</Key>
+        <Value>2011-11-06T12:12:24.9612289-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bushTrunk.FBX</Source>
+      <Name>models\treeParts\bushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bushTrunk.xnb</Output>
+      <Time>2011-10-29T19:35:14.499958-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\bushTrunk_0.xml</Key>
+        <Value>2011-11-06T12:12:25.0092317-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigTreeTop.FBX</Source>
+      <Name>models\treeParts\bigTreeTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigTreeTop.xnb</Output>
+      <Time>2011-10-29T20:27:46.4036473-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\bigTreeTop_0.xml</Key>
+        <Value>2011-11-06T12:12:25.0602346-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigTreeTrunk.FBX</Source>
+      <Name>models\treeParts\bigTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigTreeTrunk.xnb</Output>
+      <Time>2011-11-06T12:39:09.0479774-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\bigTreeTrunk_0.xml</Key>
+        <Value>2011-11-06T12:39:18.480517-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\smallTreeTrunk.FBX</Source>
+      <Name>models\treeParts\smallTreeTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\smallTreeTrunk.xnb</Output>
+      <Time>2011-11-06T12:28:54.6948385-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\smallTreeTrunk_0.xml</Key>
+        <Value>2011-11-06T12:28:57.2289834-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigBushTop.FBX</Source>
+      <Name>models\treeParts\bigBushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigBushTop.xnb</Output>
+      <Time>2011-11-06T12:04:25.0997824-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\bigBushTop_0.xml</Key>
+        <Value>2011-11-06T12:12:25.33025-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigBushTrunk.FBX</Source>
+      <Name>models\treeParts\bigBushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\bigBushTrunk.xnb</Output>
+      <Time>2011-11-06T12:04:25.1007825-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\bigBushTrunk_0.xml</Key>
+        <Value>2011-11-06T12:12:25.3772527-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\smallTreeTop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\smallTreeTop_0.xml</Output>
+      <Time>2011-10-29T00:26:16.7462449-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bushTop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\bushTop_0.xml</Output>
+      <Time>2011-10-29T19:35:14.4989579-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bushTrunk.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\bushTrunk_0.xml</Output>
+      <Time>2011-10-29T19:35:14.499958-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigTreeTop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\bigTreeTop_0.xml</Output>
+      <Time>2011-10-29T20:27:46.4036473-04:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigTreeTrunk.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\bigTreeTrunk_0.xml</Output>
+      <Time>2011-11-06T12:39:09.0479774-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\smallTreeTrunk.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\smallTreeTrunk_0.xml</Output>
+      <Time>2011-11-06T12:28:54.6948385-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigBushTop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\bigBushTop_0.xml</Output>
+      <Time>2011-11-06T12:04:25.0997824-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\bigBushTrunk.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\bigBushTrunk_0.xml</Output>
+      <Time>2011-11-06T12:04:25.1007825-05:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\rock_1_256.png</Source>
+      <Name>textures\rock_1_256</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_1_256.xnb</Output>
+      <Time>2011-11-06T13:07:15.1001549-05:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\rock_1_512.png</Source>
+      <Name>textures\rock_1_512</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_1_512.xnb</Output>
+      <Time>2011-11-06T13:07:15.103155-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\rocks\longRock.FBX</Source>
+      <Name>models\rocks\longRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\rocks\longRock.xnb</Output>
+      <Time>2011-11-06T12:59:18.7509092-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\rocks\longRock_0.xml</Key>
+        <Value>2011-11-06T14:29:29.5215067-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\rocks\boulderRock.FBX</Source>
+      <Name>models\rocks\boulderRock</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\rocks\boulderRock.xnb</Output>
+      <Time>2011-11-06T14:26:02.7882602-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\rocks\boulderRock_0.xml</Key>
+        <Value>2011-11-06T14:29:29.5995068-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\rocks\longRock.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\rocks\longRock_0.xml</Output>
+      <Time>2011-11-06T12:59:18.7509092-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\rocks\boulderRock.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\rocks\boulderRock_0.xml</Output>
+      <Time>2011-11-06T14:26:02.7882602-05:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\rock_2_256.png</Source>
+      <Name>textures\rock_2_256</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_2_256.xnb</Output>
+      <Time>2011-11-06T14:38:12.70793-05:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\rock_2_512.png</Source>
+      <Name>textures\rock_2_512</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\textures\rock_2_512.xnb</Output>
+      <Time>2011-11-06T14:38:12.7099301-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\spikeyBushTop.FBX</Source>
+      <Name>models\treeParts\spikeyBushTop</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\spikeyBushTop.xnb</Output>
+      <Time>2011-11-06T14:59:08.8517773-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\spikeyBushTop_0.xml</Key>
+        <Value>2011-11-06T15:03:43.3594782-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\spikeyBushTrunk.FBX</Source>
+      <Name>models\treeParts\spikeyBushTrunk</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\models\treeParts\spikeyBushTrunk.xnb</Output>
+      <Time>2011-11-06T14:59:08.8607778-05:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\models\treeParts\spikeyBushTrunk_0.xml</Key>
+        <Value>2011-11-06T15:03:43.4094811-05:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>models\treeParts\spikeyBushTop.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\spikeyBushTop_0.xml</Output>
+      <Time>2011-11-06T14:59:08.8517773-05:00</Time>
+    </Item>
+    <Item>
+      <Source>models\treeParts\spikeyBushTrunk.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\models\treeParts\spikeyBushTrunk_0.xml</Output>
+      <Time>2011-11-06T14:59:08.8607778-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Coosh\Desktop\lumberjack\Game\GameContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Coosh\Desktop\lumberjack\Game\Game\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Coosh\Desktop\lumberjack\Game\GameContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Coosh\Desktop\lumberjack\Game\Game\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Users\Coosh\Desktop\lumberjack\SkinnedModelPipeline\bin\x86\Debug\SkinnedModelPipeline.dll</Key>
+        <Value>2011-11-05T13:12:32.3871454-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Coosh\Desktop\lumberjack\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.dll</Key>
+        <Value>2011-11-05T13:12:32.0751448-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Coosh\Desktop\lumberjack\ControlledTerrainPipeline\bin\x86\Debug\ControlledTerrainPipeline.dll</Key>
+        <Value>2011-11-05T13:12:32.2311451-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Users\Coosh\Desktop\lumberjack\ColoredTerrainPipeline\bin\x86\Debug\ColoredTerrainPipeline.dll</Key>
+        <Value>2011-11-05T13:12:32.5431457-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-07-18T18:49:38.3922233-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

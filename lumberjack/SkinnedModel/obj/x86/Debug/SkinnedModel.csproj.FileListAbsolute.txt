@@ -1,0 +1,42 @@
+C:\Users\n210\Desktop\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\n210\Desktop\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\n210\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n210\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\n210\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\n210\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P- new\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\student\Desktop\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\student\Desktop\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\student\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\student\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\student\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+F:\Q2\Console\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+F:\Q2\Console\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+F:\Q2\Console\W-I-P\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Q2\Console\W-I-P\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\Q2\Console\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+F:\Q2\Console\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\W-I-P\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\xna 3D\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModel\bin\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModel\bin\x86\Debug\SkinnedModel.pdb
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModel\obj\x86\Debug\SkinnedModel.dll
+C:\Users\Coosh\Desktop\lumberjack\SkinnedModel\obj\x86\Debug\SkinnedModel.pdb

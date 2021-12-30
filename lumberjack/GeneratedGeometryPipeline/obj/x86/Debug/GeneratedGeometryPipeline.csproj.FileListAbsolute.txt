@@ -1,0 +1,15 @@
+C:\Users\Coosh\Desktop\W-I-P\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.dll
+C:\Users\Coosh\Desktop\W-I-P\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.pdb
+C:\Users\Coosh\Desktop\W-I-P\GeneratedGeometryPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\W-I-P\GeneratedGeometryPipeline\obj\x86\Debug\GeneratedGeometryPipeline.dll
+C:\Users\Coosh\Desktop\W-I-P\GeneratedGeometryPipeline\obj\x86\Debug\GeneratedGeometryPipeline.pdb
+C:\Users\Coosh\Desktop\xna 3D\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.dll
+C:\Users\Coosh\Desktop\xna 3D\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.pdb
+C:\Users\Coosh\Desktop\xna 3D\GeneratedGeometryPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\xna 3D\GeneratedGeometryPipeline\obj\x86\Debug\GeneratedGeometryPipeline.dll
+C:\Users\Coosh\Desktop\xna 3D\GeneratedGeometryPipeline\obj\x86\Debug\GeneratedGeometryPipeline.pdb
+C:\Users\Coosh\Desktop\lumberjack\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\GeneratedGeometryPipeline\bin\x86\Debug\GeneratedGeometryPipeline.pdb
+C:\Users\Coosh\Desktop\lumberjack\GeneratedGeometryPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Coosh\Desktop\lumberjack\GeneratedGeometryPipeline\obj\x86\Debug\GeneratedGeometryPipeline.dll
+C:\Users\Coosh\Desktop\lumberjack\GeneratedGeometryPipeline\obj\x86\Debug\GeneratedGeometryPipeline.pdb
